@@ -38,7 +38,8 @@ export default function Home() {
   const [publicKey, setPublicKey] = useState<PublicKey | string>();
 
   const RPC_ENDPOINT =
-    "https://old-small-tent.solana-devnet.discover.quiknode.pro/34f843136b5a8476e55f8b424fb9c3a04938c912/";
+    // "https://old-small-tent.solana-devnet.discover.quiknode.pro/34f843136b5a8476e55f8b424fb9c3a04938c912/";
+    "https://thrilling-autumn-shape.solana-devnet.quiknode.pro/7ef138adbb40b58385d8f1b174712800bc29aaea";
   const wallet = useWallet();
 
   const METAPLEX = useMemo(() => {
@@ -254,7 +255,7 @@ export default function Home() {
       <ToastContainer />
       <nav className="flex flex-col sm:flex-row items-center sm:justify-between sm:items-center">
         <p className="text-lg font-semibold pb-5 sm:pb-0">
-          Doge Capital - NFT Minting Dapp
+          Xaiden - NFT Minting
         </p>
         <WalletMultiButton />
       </nav>
