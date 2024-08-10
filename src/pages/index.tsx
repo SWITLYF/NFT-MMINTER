@@ -178,7 +178,8 @@ export default function Home() {
         };
 
         const response = await axios.post(
-          "https://dc-backend-server.onrender.com/api/nfts",
+          // "https://dc-backend-server.onrender.com/api/nfts",
+          "https://nft-mminter.onrender.com/api/nfts",
           { newNFTData: nftData }
         );
 
